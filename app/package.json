@@ -10,19 +10,20 @@
     "test": "test"
   },
   "scripts": {
-    "build": "webpack --mode production",
+    //"build": "webpack --mode production",
     "dev": "nodemon --exec tsx src/server.ts",
     "start": "node dist/server.js",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/supertest": "^7.2.0",
-    "eslint": "^10.5.0",
     "jest": "^30.4.2",
     "supertest": "^7.2.2",
     "ts-jest": "^29.4.11",
