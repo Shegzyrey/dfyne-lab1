@@ -69,7 +69,6 @@ app/.node_repl_history
 *.tgz
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
