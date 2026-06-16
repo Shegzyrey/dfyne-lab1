@@ -74,6 +74,7 @@ app/.node_repl_history
 .env.test.local
 .env.production.local
 .env.local
+.env.local.test
 
 # parcel-bundler cache (https://parceljs.org/)
 app/.cache
