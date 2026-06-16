@@ -1,0 +1,32 @@
+{
+  "name": "dfyne-lab1",
+  "version": "1.0.0",
+  "description": "creating a secure PR pipeline build for a backend ",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "nodemon --exec tsx src/server.ts",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^7.2.0",
+    "eslint": "^10.5.0",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.11",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
