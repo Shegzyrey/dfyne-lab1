@@ -10,7 +10,6 @@
     "test": "test"
   },
   "scripts": {
-    //"build": "webpack --mode production",
     "dev": "nodemon --exec tsx src/server.ts",
     "start": "node dist/server.js",
     "lint": "eslint .",
